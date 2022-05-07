@@ -18,6 +18,7 @@ pipeline {
             steps {
 
                 sh "cp target/boa-may.war ~/tomcat/webapps/ram.war"
+		}
             }
 
         }
